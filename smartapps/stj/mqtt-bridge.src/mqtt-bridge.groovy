@@ -316,7 +316,8 @@ import groovy.transform.Field
         capability: "capability.temperatureMeasurement",
         attributes: [
             "temperature"
-        ]
+        ],
+        action: "actionLevel"
     ],
     "thermostat": [
         name: "Thermostat",
